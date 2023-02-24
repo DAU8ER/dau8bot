@@ -30,6 +30,7 @@ body {
 .navbar a {
     text-decoration: none;    
     user-select: none;
+    color: rgba(0, 255, 255, 0.678);
 }
 .heading {
     color: rgb(93, 93, 252) ;
@@ -58,9 +59,13 @@ body {
     /* padding-left: 0px; */
     /* width: 1800px; */
 }
+.Broadcaster{
+    padding-top: 30px;
+}
 .Dev {
     padding-top: 30px;
 }
+
 areac {  
     border-end-end-radius: 10px;
     border-end-start-radius: 10px; 
@@ -142,6 +147,10 @@ spacer2 {
 spacer3 {
     display: block;
     height: 30px;
+}
+spacer4 {
+    display: block;
+    height: 25px;
 }
 
 tablehead {
