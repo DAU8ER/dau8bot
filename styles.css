@@ -78,7 +78,7 @@ areac {
     height: 33px;
     background-color:  rgb(58, 58, 95);
 }
-areac2 {
+areac2 {        
     border-end-end-radius: 10px;
     border-end-start-radius: 10px; 
     border-start-end-radius: 10px;
@@ -112,13 +112,14 @@ areac4 {
     border-end-start-radius: 10px; 
     border-start-end-radius: 10px;
     border-start-start-radius: 10px;
-    color: rgba(255, 255, 255, 0.623);
+    color: rgba(255, 255, 255, 0.253);
     display: inline-table;    
     font-size: 25px;
     width: 27%;
     height: 33px;
     /* background-color:  rgb(58, 58, 95); */
 }
+
 text {
     color: rgb(21, 171, 240);
     /* padding-left: 30px; */
@@ -127,6 +128,7 @@ text2 {
     /* padding-inline: 100px; */
     color: white;
 }
+
 .socked  {
     padding-top: 80px;
     
@@ -150,7 +152,7 @@ spacer3 {
 }
 spacer4 {
     display: block;
-    height: 25px;
+    height: 50px;
 }
 
 tablehead {
