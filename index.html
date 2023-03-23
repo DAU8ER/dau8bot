@@ -256,7 +256,8 @@
                 </areac6>
                 <areac5>
                     <text2>
-                        Adds a custom Command to your Channel (2s cooldown by default).
+                        Adds a custom Command to your Channel (2s cooldown by default). $(user) and $(sender) are
+                        available now.
                     </text2>
                 </areac5>
                 <spacerc1></spacerc1>
@@ -307,6 +308,127 @@
                         Deletes a custom Command.
                     </text2>
                 </areac5>
+            </div>
+            <div class="cmdkeywords">
+                <spacerc2></spacerc2>
+                <center>
+                    <div class="tableover">
+                        Keywords
+                    </div>
+                </center>
+                <br>
+                <areac>
+                    <center>
+                        <text>
+                            <tablehead>
+                                Commands
+                            </tablehead>
+                        </text>
+                    </center>
+                </areac>
+                <areac3>
+                    <center>
+                        <text>
+                            <tablehead>
+                                Perms
+                            </tablehead>
+                        </text>
+                    </center>
+                </areac3>
+                <areac2>
+                    <center>
+                        <text2>
+                            <tablehead>
+                                Description
+                            </tablehead>
+                        </text2>
+                    </center>
+                </areac2>
+                <spacerc1></spacerc1>
+                <areac4>
+                    <center>
+                        <text>getkeywords </text>
+                    </center>
+                </areac4>
+                <areac6>
+                    <text>
+                        everyone
+                    </text>
+                </areac6>
+                <areac5>
+                    <text2>
+                        Lists all enabled Keywords in the Channel.
+                    </text2>
+                </areac5>
+                <spacerc1></spacerc1>
+                <areac4>
+                    <center>
+                        <text>addkeyword &lt;keyword&gt; ; &lt;message&gt; </text>
+                    </center>
+                </areac4>
+                <areac6>
+                    <text>
+                        Moderator or higher
+                    </text>
+                </areac6>
+                <areac5>
+                    <text2>
+                        Add a Keyword. Important don't forget the Split Key ";" set after the Keyword and before the
+                        Message. (5s cooldown by default). $(user) and $(sender) are
+                        available now. Also you can use the /timeout Command in your Keywords Message.
+                    </text2>
+                </areac5>
+                <spacerc1></spacerc1>
+                <areac4>
+                    <center>
+                        <text>editkeyword &lt;keyword&gt; ; &lt;message&gt;</text>
+                    </center>
+                </areac4>
+                <areac6>
+                    <text>
+                        Moderator or higher
+                    </text>
+                </areac6>
+                <areac5>
+                    <text2>
+                        Updates a Keyword Message. Important don't forget the Split Key ";" set after the Keyword and
+                        before the Message. $(user) and $(sender) are
+                        available now. Also you can use the /timeout Command in your Keywords Message.
+                    </text2>
+                </areac5>
+                <spacerc1></spacerc1>
+                <areac4>
+                    <center>
+                        <text>editkeywordc &lt;keyword&gt; ; &lt;cooldown&gt; </text>
+                    </center>
+                </areac4>
+                <areac6>
+                    <text>
+                        Moderator or higher
+                    </text>
+                </areac6>
+                <areac5>
+                    <text2>
+                        Sets a new cooldown of a Keyword. Important don't forget the Split Key ";" set after the Keyword
+                        and before the Message.
+                    </text2>
+                </areac5>
+                <spacerc1></spacerc1>
+                <areac4>
+                    <center>
+                        <text>delkeyword &lt;keyword&gt; </text>
+                    </center>
+                </areac4>
+                <areac6>
+                    <text>
+                        Moderator or higher
+                    </text>
+                </areac6>
+                <areac5>
+                    <text2>
+                        Delete one of your Keywords.
+                    </text2>
+                </areac5>                
             </div>
             <div class="cmdAFK">
                 <spacerc2></spacerc2>
@@ -438,6 +560,75 @@
                 <areac5>
                     <text2>
                         Resume your previously set AFK Status.
+                    </text2>
+                </areac5>
+            </div>
+            <div class="cmdremind">
+                <spacerc2></spacerc2>
+                <center>
+                    <div class="tableover">
+                        Reminder
+
+                    </div>
+                </center>
+                <br>
+                <areac>
+                    <center>
+                        <text>
+                            <tablehead>
+                                Commands
+                            </tablehead>
+                        </text>
+                    </center>
+                </areac>
+                <areac3>
+                    <center>
+                        <text>
+                            <tablehead>
+                                Perms
+                            </tablehead>
+                        </text>
+                    </center>
+                </areac3>
+                <areac2>
+                    <center>
+                        <text2>
+                            <tablehead>
+                                Description
+                            </tablehead>
+                        </text2>
+                    </center>
+                </areac2>
+                <spacerc1></spacerc1>
+                <areac4>
+                    <center>
+                        <text>remind &lt;user&gt; &lt;message&gt; </text>
+                    </center>
+                </areac4>
+                <areac6>
+                    <text>
+                        everyone
+                    </text>
+                </areac6>
+                <areac5>
+                    <text2>
+                        Remind a user with a Message that will be sent when the User writes in one of the Bot Chats.
+                    </text2>
+                </areac5>
+                <spacerc1></spacerc1>
+                <areac4>
+                    <center>
+                        <text>delremind &lt;ID&gt; </text>
+                    </center>
+                </areac4>
+                <areac6>
+                    <text>
+                        everyone
+                    </text>
+                </areac6>
+                <areac5>
+                    <text2>
+                        Delete a reminder per reminder id.
                     </text2>
                 </areac5>
             </div>
@@ -885,6 +1076,22 @@
                         Picks one of Multiple given Options. (max. 6 Options) (Option Split Key: ; )
                     </text2>
                 </areac5>
+                <spacerc1></spacerc1>
+                <areac4>
+                    <center>
+                        <text>ask &lt;your question&gt;</text>
+                    </center>
+                </areac4>
+                <areac6>
+                    <text>
+                        everyone
+                    </text>
+                </areac6>
+                <areac5>
+                    <text2>
+                        Uses ChatGPT to answer your question.
+                    </text2>
+                </areac5>
             </div>
             <div class="cmdDevelopment">
                 <spacerc2></spacerc2>
@@ -921,38 +1128,6 @@
                         </text2>
                     </center>
                 </areac2>
-                <spacerc1></spacerc1>
-                <areac4>
-                    <center>
-                        <text>chatgpt</text>
-                    </center>
-                </areac4>
-                <areac6>
-                    <text>
-                        everyone
-                    </text>
-                </areac6>
-                <areac5>
-                    <text2>
-                        Uses ChatGPT to answer your question.
-                    </text2>
-                </areac5>
-                <spacerc1></spacerc1>
-                <areac4>
-                    <center>
-                        <text>remind &lt;user&gt; </text>
-                    </center>
-                </areac4>
-                <areac6>
-                    <text>
-                        everyone
-                    </text>
-                </areac6>
-                <areac5>
-                    <text2>
-                        Remind a user with a Message that will be sent when the User writes in one of the Bot Chats.
-                    </text2>
-                </areac5>                
                 <spacerc1></spacerc1>
                 <areac4>
                     <center>
